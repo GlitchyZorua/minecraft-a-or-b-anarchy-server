@@ -1,0 +1,828 @@
+{
+  "approved": [
+    {
+      "type": "minecraft:vote_result_show_voters"
+    },
+    {
+      "type": "minecraft:vote_max_results",
+      "value": 5
+    },
+    {
+      "type": "minecraft:new_vote_repeal_vote_chance",
+      "value": 33
+    },
+    {
+      "type": "minecraft:special_recipe",
+      "value": "minecraft:string_concatenation"
+    },
+    {
+      "type": "minecraft:special_recipe",
+      "value": "minecraft:diamond_drows"
+    },
+    {
+      "type": "minecraft:special_recipe",
+      "value": "minecraft:wob"
+    },
+    {
+      "type": "minecraft:auto_jump_alternatives",
+      "value": "of_course"
+    },
+    {
+      "type": "minecraft:wheels_on_minecarts"
+    },
+    {
+      "type": "minecraft:pot_gems"
+    },
+    {
+      "type": "minecraft:rain",
+      "value": "never"
+    },
+    {
+      "type": "minecraft:item_use_speed",
+      "value": 0.69687593
+    },
+    {
+      "type": "minecraft:big_head_mode"
+    },
+    {
+      "type": "minecraft:fire_sponge"
+    },
+    {
+      "type": "minecraft:fast_hoppers"
+    },
+    {
+      "value": 1,
+      "type": "minecraft:big_moon"
+    },
+    {
+      "type": "minecraft:normal_name_visibility",
+      "value": "normal"
+    },
+    {
+      "type": "minecraft:sneaking_name_visibility",
+      "value": "none"
+    },
+    {
+      "type": "minecraft:entity_collisions"
+    },
+    {
+      "type": "minecraft:pickaxe_block"
+    },
+    {
+      "type": "minecraft:flailing_level",
+      "value": "windmill"
+    },
+    {
+      "type": "minecraft:recipe_flip",
+      "value": "normal_only"
+    },
+    {
+      "key": "minecraft:warped_trapdoor",
+      "value": 1,
+      "type": "minecraft:recipe_double_or_half"
+    },
+    {
+      "key": "minecraft:explosion",
+      "value": 1,
+      "type": "minecraft:damage_modifier"
+    },
+    {
+      "type": "minecraft:swap_sky"
+    },
+    {
+      "key": "minecraft:ghast",
+      "value": "minecraft:skeleton",
+      "type": "minecraft:natural_spawn_replacement"
+    },
+    {
+      "key": "minecraft:entity.iron_golem.step",
+      "value": "minecraft:entity.chicken.egg",
+      "type": "minecraft:sound_replace"
+    },
+    {
+      "key": "minecraft:mushroom_fields",
+      "value": "brown grey",
+      "type": "minecraft:biome_grass_color"
+    },
+    {
+      "key": "minecraft:birch_forest",
+      "value": "canary yellow",
+      "type": "minecraft:biome_grass_color"
+    },
+    {
+      "key": "minecraft:old_growth_birch_forest",
+      "value": "bluegreen",
+      "type": "minecraft:biome_foliage_color"
+    },
+    {
+      "key": "minecraft:dripstone_caves",
+      "value": "pastel orange",
+      "type": "minecraft:biome_fog_color"
+    },
+    {
+      "type": "minecraft:rubies"
+    },
+    {
+      "type": "minecraft:dream_mode"
+    },
+    {
+      "type": "minecraft:potions_of_big"
+    },
+    {
+      "type": "minecraft:buff_fishing"
+    },
+    {
+      "type": "minecraft:endermen_pick_up_anything"
+    },
+    {
+      "type": "minecraft:snitch"
+    },
+    {
+      "type": "minecraft:trails_and_tails"
+    }
+  ],
+  "pending": {
+    "27c2dbcf-bbd6-49ff-b508-0af7c5ebc611": {
+      "display_name": {
+        "translate": "rule.proposal",
+        "with": [
+          "135"
+        ]
+      },
+      "start": 290209,
+      "duration": 10800,
+      "cost": [
+        {
+          "type": "per_proposal",
+          "count": 1
+        },
+        {
+          "type": "per_option",
+          "count": 1
+        }
+      ],
+      "options": {
+        "27c2dbcf-bbd6-49ff-b508-0af7c5ebc611:2": {
+          "display_name": {
+            "translate": "action.repeal",
+            "with": [
+              {
+                "translate": "rule.fire_sponge"
+              }
+            ]
+          },
+          "changes": [
+            {
+              "change": {
+                "type": "minecraft:fire_sponge"
+              },
+              "action": "repeal"
+            }
+          ]
+        },
+        "27c2dbcf-bbd6-49ff-b508-0af7c5ebc611:3": {
+          "display_name": {
+            "translate": "rule.nothing"
+          },
+          "changes": []
+        },
+        "27c2dbcf-bbd6-49ff-b508-0af7c5ebc611:0": {
+          "display_name": {
+            "translate": "action.repeal",
+            "with": [
+              {
+                "translate": "rule.pickaxe_block"
+              }
+            ]
+          },
+          "changes": [
+            {
+              "change": {
+                "type": "minecraft:pickaxe_block"
+              },
+              "action": "repeal"
+            }
+          ]
+        },
+        "27c2dbcf-bbd6-49ff-b508-0af7c5ebc611:1": {
+          "display_name": {
+            "translate": "action.repeal",
+            "with": [
+              {
+                "bold": true,
+                "underlined": true,
+                "color": "red",
+                "translate": "rule.flailing.windmill"
+              }
+            ]
+          },
+          "changes": [
+            {
+              "change": {
+                "type": "minecraft:flailing_level",
+                "value": "windmill"
+              },
+              "action": "repeal"
+            }
+          ]
+        }
+      }
+    },
+    "b76487ac-b1b3-46e6-b616-92cae03603c4": {
+      "display_name": {
+        "translate": "rule.proposal",
+        "with": [
+          "132"
+        ]
+      },
+      "start": 283937,
+      "duration": 14400,
+      "cost": [
+        {
+          "type": "per_proposal",
+          "count": 1
+        },
+        {
+          "type": "per_option",
+          "count": 1
+        }
+      ],
+      "options": {
+        "b76487ac-b1b3-46e6-b616-92cae03603c4:2": {
+          "display_name": {
+            "translate": "rule.nothing"
+          },
+          "changes": []
+        },
+        "b76487ac-b1b3-46e6-b616-92cae03603c4:0": {
+          "display_name": {
+            "translate": "rule.item_despawn_time.change",
+            "with": [
+              "05:00",
+              "04:00"
+            ]
+          },
+          "changes": [
+            {
+              "change": {
+                "delta": -1200,
+                "type": "minecraft:item_despawn_time"
+              },
+              "action": "approve"
+            }
+          ]
+        },
+        "b76487ac-b1b3-46e6-b616-92cae03603c4:1": {
+          "display_name": {
+            "translate": "rule.item_despawn_time.change",
+            "with": [
+              "05:00",
+              "06:00"
+            ]
+          },
+          "changes": [
+            {
+              "change": {
+                "delta": 1200,
+                "type": "minecraft:item_despawn_time"
+              },
+              "action": "approve"
+            }
+          ]
+        }
+      }
+    },
+    "2c7ee288-9cdc-49cb-9380-639516c24f11": {
+      "display_name": {
+        "translate": "rule.proposal",
+        "with": [
+          "134"
+        ]
+      },
+      "start": 288827,
+      "duration": 15600,
+      "cost": [
+        {
+          "type": "per_proposal",
+          "count": 1
+        },
+        {
+          "type": "per_option",
+          "count": 1
+        }
+      ],
+      "options": {
+        "2c7ee288-9cdc-49cb-9380-639516c24f11:0": {
+          "display_name": {
+            "translate": "rule.flammability.very_high",
+            "with": [
+              {
+                "translate": "block.minecraft.white_candle"
+              }
+            ]
+          },
+          "changes": [
+            {
+              "change": {
+                "key": "minecraft:white_candle",
+                "value": "very_high",
+                "type": "minecraft:inflammability"
+              },
+              "action": "approve"
+            }
+          ]
+        },
+        "2c7ee288-9cdc-49cb-9380-639516c24f11:1": {
+          "display_name": {
+            "translate": "rule.flammability.low",
+            "with": [
+              {
+                "translate": "block.minecraft.white_candle"
+              }
+            ]
+          },
+          "changes": [
+            {
+              "change": {
+                "key": "minecraft:white_candle",
+                "value": "low",
+                "type": "minecraft:inflammability"
+              },
+              "action": "approve"
+            }
+          ]
+        },
+        "2c7ee288-9cdc-49cb-9380-639516c24f11:2": {
+          "display_name": {
+            "translate": "rule.nothing"
+          },
+          "changes": []
+        }
+      }
+    },
+    "38b72ec9-83ab-466e-abbc-7f4073623ecd": {
+      "display_name": {
+        "translate": "rule.proposal",
+        "with": [
+          "136"
+        ]
+      },
+      "start": 290258,
+      "duration": 14400,
+      "cost": [
+        {
+          "type": "per_proposal",
+          "count": 1
+        },
+        {
+          "type": "per_option",
+          "count": 1
+        }
+      ],
+      "options": {
+        "38b72ec9-83ab-466e-abbc-7f4073623ecd:0": {
+          "display_name": {
+            "translate": "rule.replace_sound",
+            "with": [
+              {
+                "text": "block.wet_grass.place"
+              },
+              {
+                "text": "block.lily_pad.place"
+              }
+            ]
+          },
+          "changes": [
+            {
+              "change": {
+                "key": "minecraft:block.wet_grass.place",
+                "value": "minecraft:block.lily_pad.place",
+                "type": "minecraft:sound_replace"
+              },
+              "action": "approve"
+            }
+          ]
+        },
+        "38b72ec9-83ab-466e-abbc-7f4073623ecd:1": {
+          "display_name": {
+            "translate": "rule.replace_sound",
+            "with": [
+              {
+                "text": "block.wet_grass.place"
+              },
+              {
+                "text": "entity.skeleton_horse.jump_water"
+              }
+            ]
+          },
+          "changes": [
+            {
+              "change": {
+                "key": "minecraft:block.wet_grass.place",
+                "value": "minecraft:entity.skeleton_horse.jump_water",
+                "type": "minecraft:sound_replace"
+              },
+              "action": "approve"
+            }
+          ]
+        },
+        "38b72ec9-83ab-466e-abbc-7f4073623ecd:2": {
+          "display_name": {
+            "translate": "rule.replace_sound",
+            "with": [
+              {
+                "text": "block.wet_grass.place"
+              },
+              {
+                "text": "ambient.basalt_deltas.mood"
+              }
+            ]
+          },
+          "changes": [
+            {
+              "change": {
+                "key": "minecraft:block.wet_grass.place",
+                "value": "minecraft:ambient.basalt_deltas.mood",
+                "type": "minecraft:sound_replace"
+              },
+              "action": "approve"
+            }
+          ]
+        },
+        "38b72ec9-83ab-466e-abbc-7f4073623ecd:3": {
+          "display_name": {
+            "translate": "rule.nothing"
+          },
+          "changes": []
+        }
+      }
+    },
+    "7e5ddc0f-1e0e-4521-87d3-940752840b65": {
+      "display_name": {
+        "translate": "rule.proposal",
+        "with": [
+          "137"
+        ]
+      },
+      "start": 291490,
+      "duration": 16800,
+      "cost": [
+        {
+          "type": "per_proposal",
+          "count": 1
+        },
+        {
+          "type": "per_option",
+          "count": 1
+        }
+      ],
+      "options": {
+        "7e5ddc0f-1e0e-4521-87d3-940752840b65:0": {
+          "display_name": {
+            "translate": "rule.egg_free.item",
+            "with": [
+              {
+                "translate": "block.minecraft.bubble_coral"
+              }
+            ]
+          },
+          "changes": [
+            {
+              "change": {
+                "value": "minecraft:bubble_coral",
+                "type": "minecraft:egg_free"
+              },
+              "action": "approve"
+            }
+          ]
+        },
+        "7e5ddc0f-1e0e-4521-87d3-940752840b65:1": {
+          "display_name": {
+            "translate": "rule.egg_free.item",
+            "with": [
+              {
+                "translate": "block.minecraft.green_glazed_terracotta"
+              }
+            ]
+          },
+          "changes": [
+            {
+              "change": {
+                "value": "minecraft:green_glazed_terracotta",
+                "type": "minecraft:egg_free"
+              },
+              "action": "approve"
+            }
+          ]
+        },
+        "7e5ddc0f-1e0e-4521-87d3-940752840b65:2": {
+          "display_name": {
+            "translate": "rule.egg_free.item",
+            "with": [
+              {
+                "translate": "block.minecraft.green_wool"
+              }
+            ]
+          },
+          "changes": [
+            {
+              "change": {
+                "value": "minecraft:green_wool",
+                "type": "minecraft:egg_free"
+              },
+              "action": "approve"
+            }
+          ]
+        },
+        "7e5ddc0f-1e0e-4521-87d3-940752840b65:3": {
+          "display_name": {
+            "translate": "rule.nothing"
+          },
+          "changes": []
+        }
+      }
+    },
+    "e0fe0da4-bfc6-4b29-bfc0-520197bf7bb1": {
+      "display_name": {
+        "translate": "rule.proposal",
+        "with": [
+          "133"
+        ]
+      },
+      "start": 286053,
+      "duration": 13200,
+      "cost": [
+        {
+          "type": "per_proposal",
+          "count": 1
+        },
+        {
+          "type": "per_option",
+          "count": 1
+        }
+      ],
+      "options": {
+        "e0fe0da4-bfc6-4b29-bfc0-520197bf7bb1:3": {
+          "display_name": {
+            "translate": "rule.nothing"
+          },
+          "changes": []
+        },
+        "e0fe0da4-bfc6-4b29-bfc0-520197bf7bb1:1": {
+          "display_name": {
+            "translate": "rule.connector",
+            "with": [
+              {
+                "translate": "rule.flip_binary_gamerule",
+                "with": [
+                  {
+                    "translate": "gamerule.mobGriefing"
+                  }
+                ]
+              },
+              {
+                "translate": "rule.give_items",
+                "with": [
+                  "13",
+                  {
+                    "color": "white",
+                    "hoverEvent": {
+                      "action": "show_item",
+                      "contents": {
+                        "id": "minecraft:birch_hanging_sign",
+                        "count": 13
+                      }
+                    },
+                    "translate": "chat.square_brackets",
+                    "with": [
+                      {
+                        "extra": [
+                          {
+                            "translate": "block.minecraft.birch_hanging_sign"
+                          }
+                        ],
+                        "text": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "changes": [
+            {
+              "change": {
+                "type": "minecraft:binary_gamerule_rule",
+                "value": "mobGriefing"
+              },
+              "action": "approve"
+            },
+            {
+              "change": {
+                "type": "minecraft:give_item",
+                "value": {
+                  "id": "minecraft:birch_hanging_sign",
+                  "Count": 13
+                }
+              },
+              "action": "approve"
+            }
+          ]
+        },
+        "e0fe0da4-bfc6-4b29-bfc0-520197bf7bb1:2": {
+          "display_name": {
+            "translate": "rule.connector",
+            "with": [
+              {
+                "translate": "rule.flip_binary_gamerule",
+                "with": [
+                  {
+                    "translate": "gamerule.universalAnger"
+                  }
+                ]
+              },
+              {
+                "translate": "rule.give_items",
+                "with": [
+                  "6",
+                  {
+                    "color": "white",
+                    "hoverEvent": {
+                      "action": "show_item",
+                      "contents": {
+                        "id": "minecraft:green_stained_glass_pane",
+                        "count": 6
+                      }
+                    },
+                    "translate": "chat.square_brackets",
+                    "with": [
+                      {
+                        "extra": [
+                          {
+                            "translate": "block.minecraft.green_stained_glass_pane"
+                          }
+                        ],
+                        "text": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "changes": [
+            {
+              "change": {
+                "type": "minecraft:binary_gamerule_rule",
+                "value": "universalAnger"
+              },
+              "action": "approve"
+            },
+            {
+              "change": {
+                "type": "minecraft:give_item",
+                "value": {
+                  "id": "minecraft:green_stained_glass_pane",
+                  "Count": 6
+                }
+              },
+              "action": "approve"
+            }
+          ]
+        },
+        "e0fe0da4-bfc6-4b29-bfc0-520197bf7bb1:0": {
+          "display_name": {
+            "translate": "rule.connector",
+            "with": [
+              {
+                "translate": "rule.flip_binary_gamerule",
+                "with": [
+                  {
+                    "translate": "gamerule.doInsomnia"
+                  }
+                ]
+              },
+              {
+                "translate": "rule.give_items",
+                "with": [
+                  "1",
+                  {
+                    "color": "white",
+                    "hoverEvent": {
+                      "action": "show_item",
+                      "contents": {
+                        "id": "minecraft:netherite_axe",
+                        "tag": "{Damage:0}"
+                      }
+                    },
+                    "translate": "chat.square_brackets",
+                    "with": [
+                      {
+                        "extra": [
+                          {
+                            "translate": "item.minecraft.netherite_axe"
+                          }
+                        ],
+                        "text": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "changes": [
+            {
+              "change": {
+                "type": "minecraft:binary_gamerule_rule",
+                "value": "doInsomnia"
+              },
+              "action": "approve"
+            },
+            {
+              "change": {
+                "type": "minecraft:give_item",
+                "value": {
+                  "id": "minecraft:netherite_axe",
+                  "Count": 1,
+                  "tag": {
+                    "Damage": 0
+                  }
+                }
+              },
+              "action": "approve"
+            }
+          ]
+        }
+      }
+    },
+    "99bc355c-eb2d-4080-b090-c1e79457fbc7": {
+      "display_name": {
+        "translate": "rule.proposal",
+        "with": [
+          "138"
+        ]
+      },
+      "start": 292756,
+      "duration": 15600,
+      "cost": [
+        {
+          "type": "per_proposal",
+          "count": 1
+        },
+        {
+          "type": "per_option",
+          "count": 1
+        }
+      ],
+      "options": {
+        "99bc355c-eb2d-4080-b090-c1e79457fbc7:2": {
+          "display_name": {
+            "translate": "rule.nothing"
+          },
+          "changes": []
+        },
+        "99bc355c-eb2d-4080-b090-c1e79457fbc7:1": {
+          "display_name": {
+            "translate": "action.repeal",
+            "with": [
+              {
+                "translate": "rule.potions_of_big"
+              }
+            ]
+          },
+          "changes": [
+            {
+              "change": {
+                "type": "minecraft:potions_of_big"
+              },
+              "action": "repeal"
+            }
+          ]
+        },
+        "99bc355c-eb2d-4080-b090-c1e79457fbc7:0": {
+          "display_name": {
+            "translate": "action.repeal",
+            "with": [
+              {
+                "translate": "rule.swap_skies"
+              }
+            ]
+          },
+          "changes": [
+            {
+              "change": {
+                "type": "minecraft:swap_sky"
+              },
+              "action": "repeal"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "votes": {
+    "options": {}
+  },
+  "total_proposal_count": 138
+}
